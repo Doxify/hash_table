@@ -6,20 +6,20 @@ reusing it in the future so I decided to make a repository for it.
 ## Structure
 
 ### **struct Hash_Table_Entry**
-```
+```c
 char *key;
 int value;
 struct Hash_Table_Entry *next;
 ```
 
 ### **struct Hash_Table**
-```
+```c
 Hash_Table_Entry **entries;
 int tableSize;
 ```
 
 ## Methods
-```
+```c
 Hash_Table *ht_create(int); // Creates a hash table with int entries.
 unsigned int hash(Hash_Table *, const char *); // Hashes a key to the hash table.
 void ht_set(Hash_Table *, char *, int); // Inserts a key, value pair into the table.
