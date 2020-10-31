@@ -1,7 +1,5 @@
 # Hash Table
-This is a simple hash table implementation written in C. Originally this was created
-for one of my school projects but I spent a good amount of time on it and I plan on 
-reusing it in the future so I decided to make a repository for it.
+This is a simple hash table implementation written in C.
 
 ## Structure
 
